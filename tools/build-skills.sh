@@ -21,7 +21,7 @@ group_for() {
   case "$1" in
     dbs|dbs-update)
       echo "必装入口" ;;
-    dbs-diagnosis|dbs-standard-answer|dbs-deconstruct|dbs-goal|dbs-good-question|dbs-jtbd|dbs-action)
+    dbs-diagnosis|dbs-standard-answer|dbs-theory-grounding|dbs-deconstruct|dbs-goal|dbs-good-question|dbs-jtbd|dbs-action)
       echo "看商业问题" ;;
     dbs-content|dbs-content-risk-check|dbs-benchmark|dbs-hook|dbs-xhs-title|dbs-ai-check|dbs-wechat-html|dbs-spread|dbs-resonate|dbs-script-flow|dbs-video-extract)
       echo "做内容" ;;
@@ -162,6 +162,7 @@ Trae Solo 一个 zip 装一个 skill。本压缩包按使用场景分了几个�
 ## 看商业问题
 
 - **dbs-diagnosis** — 商业模式诊断（根据用户问题自动选择诊断流程）
+- **dbs-theory-grounding** — 理论溯源与案例重释（审查命题、核实理论来源并标明适用边界）
 - **dbs-standard-answer** — 理论挖掘与历史同构研究（先找相关领域、作者和理论，再提炼带条件的历史答案）
 - **dbs-deconstruct** — 概念拆解（维特根斯坦 + 奥派经济学）
 - **dbs-goal** — 目标清晰化（把「我想做个人 IP」这种愿望语法审计成可检查的交付物）
